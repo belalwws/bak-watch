@@ -17,6 +17,7 @@ import MovieList from "./Screens/Dashboard/Admin/MovieList";
 import Dashboard from "./Screens/Dashboard/Admin/Dashboard";
 import Categores from "./Screens/Dashboard/Admin/Categores";
 import Users from "./Screens/Dashboard/Admin/Users";
+import NewAnime from "./Screens/NewAnime";
 const App = () => {
   Aos.init();
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/Movis" element={<MoviePage />} />
       <Route path="/Movis/:id" element={<SingleMovie />} />
+      <Route path="/Anime/:id" element={<NewAnime />} />
       <Route path="/watch/:id" element={<WatchPage />} />
       <Route path="/login" element={<Login />} />
       <Route path="/Profile" element={<Profile />} />

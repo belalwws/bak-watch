@@ -13,7 +13,7 @@ const NavBar = () => {
           <div className="col-span-1 lg:block hidden">
             <Link to="/">
               <div className="w-full h-12 object-contain  mt-2 text-2xl ">
-                BAK-TECH
+                BAK-WATCH
               </div>{" "}
             </Link>
           </div>
